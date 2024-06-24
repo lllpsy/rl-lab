@@ -89,6 +89,11 @@ N_importance = 128->64
 precrop_iters = 500->50
 
 
+the results:
+![image](https://github.com/lllpsy/rl-lab/assets/59329407/7eb7bf71-b610-4e0f-9ed2-34e27dc50bcb)
+
+[TRAIN] Iter: 10000 Loss: 0.001231816248036921  PSNR: 31.56230926513672   
+
 
 
 
