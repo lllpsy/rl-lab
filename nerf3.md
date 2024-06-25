@@ -70,14 +70,19 @@ half_res:false
 
 i_img:500->400000
 
+
 i_testset:50000->400000
+
 
 i_video:50000->400000
 
 
 first try:
+
 N_rand = 1024->256
+
 N_samples = 64->32
+
 N_importance = 128->64
 
 precrop_iters = 500->50
@@ -90,7 +95,9 @@ the results:
 
 
 second try:
+
 N_rand = 1024->256
+
 N_iters = 200000+1->100000 + 1
 
 
