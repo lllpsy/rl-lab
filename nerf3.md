@@ -68,31 +68,31 @@ half_res:false
 
 
 
-i_img = 50->100000
+i_img:500->400000
 
-i_testset = 2500->100000
+i_testset:50000->400000
 
-i_video = 2500->100000
-
-lrate= 5e-4
-
-i_weights:10000->500
-
-i_print:100->10
+i_video:50000->400000
 
 
-
+first try:
 N_rand = 1024->256
 N_samples = 64->32
 N_importance = 128->64
 
 precrop_iters = 500->50
-
+N_iters = 200000+1->10000 + 1
 
 the results:
 ![image](https://github.com/lllpsy/rl-lab/assets/59329407/7eb7bf71-b610-4e0f-9ed2-34e27dc50bcb)
 
 [TRAIN] Iter: 10000 Loss: 0.001231816248036921  PSNR: 31.56230926513672   
+
+
+second try:
+N_rand = 1024->256
+N_iters = 200000+1->100000 + 1
+
 
 
 
