@@ -54,7 +54,7 @@ so principal point is the middle of the camera
 
 
 
-# new dataset 
+# new dataset with no test
 
 train on 5 frames
 
@@ -63,8 +63,6 @@ train on 5 frames
 configuation:
 
 white_bkgd: false
-
-half_res:false
 
 
 
@@ -107,8 +105,17 @@ N_iters = 200000+1->100000 + 1
 ![image](https://github.com/lllpsy/rl-lab/assets/59329407/273b7026-6c20-4098-bfc3-eeac6ad42084)
 
 
+# new dataset with test
+
+train on 4 image, test and val on 1 image
+
+N_rand = 1024->256
 
 
+when iteration is 200k:
+![image](https://github.com/lllpsy/nerf_pytorch_v2/assets/59329407/30f00e57-a570-44a3-bc62-2f1f14673e3d)
+
+however, unfortunately, it can't generate a clear test image
 
 
 # dataset of paper
