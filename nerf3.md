@@ -79,6 +79,8 @@ i_video:50000->400000
 
 first try:
 
+half_res:false
+
 N_rand = 1024->256
 
 N_samples = 64->32
@@ -96,9 +98,14 @@ the results:
 
 second try:
 
+half_res = True
+
 N_rand = 1024->256
 
 N_iters = 200000+1->100000 + 1
+
+![image](https://github.com/lllpsy/rl-lab/assets/59329407/273b7026-6c20-4098-bfc3-eeac6ad42084)
+
 
 
 
