@@ -265,15 +265,33 @@ Q: the difference to nerf? faster-gpu, 16*16 sections, 1 gpu run 1 section to ca
 
 
 
+# output-with top and without top info
+
+with top info:
+
+https://drive.google.com/file/d/1t99SY4tTCYaUMwppfIq-hhPtd7PBmtyX/view?usp=drive_link
 
 
 
+without top info:
 
-
+https://drive.google.com/file/d/1cdYH7zYgouUisEaeQIMAZodlBEk3tzBO/view?usp=drive_link
 
 # Q:change c2w into w2c?
 
-no image
+
+
+if just change in the the train stage:
+
+note that we can’t change in the render stage:
+
+
+
+the pic looks squeeze together
+
+looks like 
+
+https://drive.google.com/file/d/14z3TTNcyQP47BETW0BTDgXdrtmPND5DM/view?usp=drive_link
 
 
 
